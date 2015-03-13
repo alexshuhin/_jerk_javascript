@@ -142,3 +142,18 @@ obj_petya.succ();
 //obj.trigger_event('event1'); // call event1 of observer
 //obj.trigger_event('event2'); // call event2 of observer
 //obj.trigger_event('on'); // call event3 of observer
+
+////////////////////////////////////////////////////////////////
+
+// Неработающая фигня - почему?
+Array.prototype.hueach = function(func) {
+  for (i = 0; i < this.length; i++) {
+    func(this[i]);
+  }
+}
+
+[1,2,3,4,5].hueach(function(e) {
+  console.log(e);
+})
+
+console.log('Вышел Кирилл покурять!')
