@@ -1,5 +1,5 @@
 # Полезные ссылки
 
-* [jquery](jquery.com)
-* [full ecma language specification](www.ecma-international.org/ecma-262/5.1/)
-* [cdn](cdnjs.com)
+* [jquery](http://jquery.com)
+* [full ecma language specification](http://www.ecma-international.org/ecma-262/5.1/)
+* [cdn](http://cdnjs.com)
